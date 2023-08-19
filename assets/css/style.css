@@ -1,0 +1,58 @@
+
+
+video {
+  position: absolute;
+}
+
+#app {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+#video {
+  display: none;
+}
+
+#status {
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#status dl {
+  text-align: left;
+}
+
+#status dt {
+  float: left;
+  clear: left;
+  width: 5rem;
+  font-weight: normal;
+}
+
+.canvas-container {
+  margin: 1rem;
+  width: calc(100vw - 2rem);
+  height: 65vh;
+  box-sizing: border-box;
+  border: .5rem solid black;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+#canvas {
+  position: absolute;
+  width: calc(100vw - 2rem);
+  height: 65vh;
+  border-radius: 7px;
+}
+
+.mouth {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: aqua;
+}
